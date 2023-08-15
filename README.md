@@ -1,15 +1,20 @@
-
-
 # [부산 해수욕장 날씨 프로젝트](https://busanbeachweather.com)
 
-```Forker Notes
-- Yarn2로 리패키징을 해보았습니다.
+```bash
+## Forker Notes
+# yarn2로 리패키징을 해보았습니다.
 
-$ yarn set version berry
-$ yarn install
+yarn set version berry
+yarn config set nodeLinker node-modules
+yarn install
+
+# sharp@npm:0.32.4 must be built because it never has been before or the last one failed
+$ yarn add sharp@0.32.4
+
 $ yarn run dev
 
 - 공공데이터포털의 KEY는 Encoded Key 사용 확인
+  - OCEAN_DATA_KEY 제외한 모든 키값이 동일
 - local 테스트 시, `http://localhost:3000`만 허용. 
   127.0.0.1(루프백) 지원 X [CORS]
 ```
