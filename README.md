@@ -1,5 +1,10 @@
 ```Note
 - Yarn2로 리패키징을 해보았습니다.
+
+$ yarn set version berry
+$ yarn install
+$ yarn run dev
+
 ```
 
 
