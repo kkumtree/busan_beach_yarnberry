@@ -1,3 +1,8 @@
+```Note
+- Yarn2로 리패키징을 해보았습니다.
+```
+
+
 # [부산 해수욕장 날씨 프로젝트](https://busanbeachweather.com)
 
 ## 기획 및 개발
