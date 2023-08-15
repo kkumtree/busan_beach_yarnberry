@@ -3,8 +3,8 @@
  */
 
 const withPlugins = require('next-compose-plugins');
-const withPWA = require('next-pwa');
-const runtimeCaching = require('next-pwa/cache');
+// const withPWA = require('next-pwa');
+// const runtimeCaching = require('next-pwa/cache');
 const { NEXT_PUBLIC_ENV } = process.env;
 const isLocal = NEXT_PUBLIC_ENV === 'local';
 const CONFIG = require(`./config/${NEXT_PUBLIC_ENV}`);
