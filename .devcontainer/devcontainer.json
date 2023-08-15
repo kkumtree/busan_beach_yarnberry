@@ -1,0 +1,11 @@
+{
+    "name": "yarn2 project",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "yarn set version berry && yarn install",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "VARIANT": "14"
+        }
+    }
+}
