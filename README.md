@@ -1,14 +1,18 @@
-```Note
+
+
+# [부산 해수욕장 날씨 프로젝트](https://busanbeachweather.com)
+
+```Forker Notes
 - Yarn2로 리패키징을 해보았습니다.
 
 $ yarn set version berry
 $ yarn install
 $ yarn run dev
 
+- 공공데이터포털의 KEY는 Encoded Key 사용 확인
+- local 테스트 시, `http://localhost:3000`만 허용. 
+  127.0.0.1(루프백) 지원 X [CORS]
 ```
-
-
-# [부산 해수욕장 날씨 프로젝트](https://busanbeachweather.com)
 
 ## 기획 및 개발
 
