@@ -36,33 +36,35 @@ const nextConfig = {
   }),
 };
 
-module.exports = withPWA({
-  pwa: {
-    dest: 'public',
-    runtimeCaching,
-    disable: isLocal,
-  },
-  reactStrictMode: true,
-  env: publicRuntimeConfig,
-  publicRuntimeConfig,
-  swcMinify: true,
-  experimental: {
-    forceSwcTransforms: true,
-  },
-  compiler: {
-    emotion: {
-      sourceMap: isLocal,
-    },
-  },
-  ...(isLocal && {
-    async rewrites() {
-      return [
-        {
-          basePath: false,
-          source: '/assets/:path*',
-          destination: `${LOCAL_ORIGIN}/:publicfiles`,
-        },
-      ];
-    },
-  }),
-});
+// module.exports = withPWA({
+//   pwa: {
+//     dest: 'public',
+//     runtimeCaching,
+//     disable: isLocal,
+//   },
+//   reactStrictMode: true,
+//   env: publicRuntimeConfig,
+//   publicRuntimeConfig,
+//   swcMinify: true,
+//   experimental: {
+//     forceSwcTransforms: true,
+//   },
+//   compiler: {
+//     emotion: {
+//       sourceMap: isLocal,
+//     },
+//   },
+//   ...(isLocal && {
+//     async rewrites() {
+//       return [
+//         {
+//           basePath: false,
+//           source: '/assets/:path*',
+//           destination: `${LOCAL_ORIGIN}/:publicfiles`,
+//         },
+//       ];
+//     },
+//   }),
+// });
+
+module.exports = nextConfig
