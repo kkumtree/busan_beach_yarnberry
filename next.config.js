@@ -2,9 +2,13 @@
  * @type {import('next').NextConfig}
  */
 
-const withPlugins = require('next-compose-plugins');
-// const withPWA = require('next-pwa');
-// const runtimeCaching = require('next-pwa/cache');
+// ref.
+// https://maxrohde.com/2023/01/06/fixing-next-js-error-next-config-options-detected
+const nextComposePlugins = require('next-compose-plugins');
+const { withPlugins } = nextComposePlugins.extend(() => ({}));
+// const withPlugins = require('next-compose-plugins');
+// // const withPWA = require('next-pwa');
+// // const runtimeCaching = require('next-pwa/cache');
 const { NEXT_PUBLIC_ENV } = process.env;
 const isLocal = NEXT_PUBLIC_ENV === 'local';
 const CONFIG = require(`./config/${NEXT_PUBLIC_ENV}`);
