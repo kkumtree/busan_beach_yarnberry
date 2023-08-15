@@ -21,7 +21,7 @@ export const API_ROUTES = {
     },
   },
   LIVING: {
-    UV: `${API_URL_BASE}/1360000/LivingWthrIdxServiceV2/getUVIdxV2?serviceKey=${LIVING_WEATHER_KEY}`,
+    UV: `${API_URL_BASE}/1360000/LivingWthrIdxServiceV4/getUVIdxV2?serviceKey=${LIVING_WEATHER_KEY}`,
   },
   FORECAST: {
     MEDIUM: {
