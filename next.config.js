@@ -2,7 +2,7 @@
  * @type {import('next').NextConfig}
  */
 
-// const withPlugins = require('next-compose-plugins');
+const withPlugins = require('next-compose-plugins');
 const withPWA = require('next-pwa');
 const runtimeCaching = require('next-pwa/cache');
 const { NEXT_PUBLIC_ENV } = process.env;
@@ -36,14 +36,14 @@ const nextConfig = {
   }),
 };
 
-module.exports = withPWA([
-  [require('next-pwa'), {
-    pwa: {
-      dest: 'public',
-      runtimeCaching,
-      disable: isLocal,
-    },
-  }],
-], nextConfig);
+// module.exports = withPWA([
+//   [require('next-pwa'), {
+//     pwa: {
+//       dest: 'public',
+//       runtimeCaching,
+//       disable: isLocal,
+//     },
+//   }],
+// ], nextConfig);
 
-// module.exports = nextConfig
+module.exports = withPlugins([nextConfig]); 
