@@ -16,7 +16,7 @@ $ yarn run dev
 - 공공데이터포털의 KEY는 Encoded Key 사용 확인
   - OCEAN_DATA_KEY 제외한 모든 키값이 동일
 - local 테스트 시, `http://localhost:3000`만 허용. 
-  127.0.0.1(루프백) 지원 X [CORS]
+  127.0.0.1(명시적 루프백) 지원 X [CORS]
 ```
 
 ## 기획 및 개발
