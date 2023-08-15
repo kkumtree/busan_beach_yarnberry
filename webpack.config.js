@@ -7,6 +7,12 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devServer: {
+    hot: true,
+    inline: true,
+    port: 3000,
+    publicPath: '/'
+  },
   plugins: [
     new WorkboxPlugin.GenerateSW({
       clientsClaim: true,
