@@ -1,17 +1,36 @@
 # [부산 해수욕장 날씨 프로젝트](https://busanbeachweather.com)
 
-```bash
+```markdown
 ## Forker Notes
-# yarn2로 리패키징을 해보았습니다.
+- yarn2로 리패키징을 해보았습니다.
 
-yarn set version berry
-yarn config set nodeLinker node-modules
-yarn install
+### Migration
 
-# sharp@npm:0.32.4 must be built because it never has been before or the last one failed
+$ yarn set version berry
+$ yarn config set nodeLinker node-modules
+$ yarn install
+
+- 추가 작업
+  `sharp@npm:0.32.4 must be built because it never has been before or the last one failed`
+
 $ yarn add sharp@0.32.4
 
+- 실행 확인
+
 $ yarn run dev
+
+### Enable pnp
+- `.yarnrc.yml`: nodeLinker 제거
+- `node_modules`: 폴더 제거
+
+$ rm -rf node_modules
+$ yarn install
+$ yarn add sharp@0.32.4
+
+- zero-install 테스트
+$ yarn dev
+
+### etc.
 
 - 공공데이터포털의 KEY는 Encoded Key 사용 확인
   - OCEAN_DATA_KEY 제외한 모든 키값이 동일
