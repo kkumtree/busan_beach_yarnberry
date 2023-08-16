@@ -28,6 +28,7 @@ $ yarn install
 $ yarn add sharp@0.32.4
 
 - zero-install 테스트
+
 $ yarn dev
 
 ### etc.
