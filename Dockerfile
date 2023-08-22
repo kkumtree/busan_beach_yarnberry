@@ -15,7 +15,7 @@ COPY ./ ./
 RUN yarn set version berry 
 
 RUN yarn install
-RUN yarn add sharp@npm:0.32.4
+RUN yarn add sharp@npm:0.32.5
 
 RUN yarn build:production
 
