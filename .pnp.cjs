@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:e94f839d68d9ca22a9d159c9ed124ddce3c3fda3aeca03daee7647120b9cd8bc4410bbb1e09b840c4460e1bb6ae9f0ee7de80965f967cac3b928a5809474c2b6#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
             ["react-loading-skeleton", "virtual:e94f839d68d9ca22a9d159c9ed124ddce3c3fda3aeca03daee7647120b9cd8bc4410bbb1e09b840c4460e1bb6ae9f0ee7de80965f967cac3b928a5809474c2b6#npm:3.3.1"],\
-            ["sharp", "npm:0.32.4"],\
+            ["sharp", "npm:0.32.5"],\
             ["styled-reset", "virtual:e94f839d68d9ca22a9d159c9ed124ddce3c3fda3aeca03daee7647120b9cd8bc4410bbb1e09b840c4460e1bb6ae9f0ee7de80965f967cac3b928a5809474c2b6#npm:4.5.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"]\
           ],\
@@ -4314,7 +4314,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:e94f839d68d9ca22a9d159c9ed124ddce3c3fda3aeca03daee7647120b9cd8bc4410bbb1e09b840c4460e1bb6ae9f0ee7de80965f967cac3b928a5809474c2b6#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
             ["react-loading-skeleton", "virtual:e94f839d68d9ca22a9d159c9ed124ddce3c3fda3aeca03daee7647120b9cd8bc4410bbb1e09b840c4460e1bb6ae9f0ee7de80965f967cac3b928a5809474c2b6#npm:3.3.1"],\
-            ["sharp", "npm:0.32.4"],\
+            ["sharp", "npm:0.32.5"],\
             ["styled-reset", "virtual:e94f839d68d9ca22a9d159c9ed124ddce3c3fda3aeca03daee7647120b9cd8bc4410bbb1e09b840c4460e1bb6ae9f0ee7de80965f967cac3b928a5809474c2b6#npm:4.5.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"]\
           ],\
@@ -8120,9 +8120,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["readable-stream", [\
         ["npm:3.6.2", {\
-          "packageLocation": "./.yarn/cache/readable-stream-npm-3.6.1-d2a6069158-bdcbe6c22e.zip/node_modules/readable-stream/",\
+          "packageLocation": "./.yarn/cache/readable-stream-npm-3.6.2-d2a6069158-bdcbe6c22e.zip/node_modules/readable-stream/",\
           "packageDependencies": [\
-            ["readable-stream", "npm:3.6.1"],\
+            ["readable-stream", "npm:3.6.2"],\
             ["inherits", "npm:2.0.4"],\
             ["string_decoder", "npm:1.3.0"],\
             ["util-deprecate", "npm:1.0.2"]\
@@ -8474,10 +8474,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sharp", [\
-        ["npm:0.32.4", {\
-          "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.4-5e8bfafca7/node_modules/sharp/",\
+        ["npm:0.32.5", {\
+          "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.5-f82a9875e0/node_modules/sharp/",\
           "packageDependencies": [\
-            ["sharp", "npm:0.32.4"],\
+            ["sharp", "npm:0.32.5"],\
             ["color", "npm:4.2.3"],\
             ["detect-libc", "npm:2.0.2"],\
             ["node-addon-api", "npm:6.1.0"],\
@@ -9013,7 +9013,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["end-of-stream", "npm:1.4.4"],\
             ["fs-constants", "npm:1.0.0"],\
             ["inherits", "npm:2.0.4"],\
-            ["readable-stream", "npm:3.6.1]\
+            ["readable-stream", "npm:3.6.2"]\
           ],\
           "linkType": "HARD"\
         }],\
