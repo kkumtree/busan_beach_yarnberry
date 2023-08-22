@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:lts-alpine
 
 EXPOSE 3000
 
@@ -15,7 +15,7 @@ COPY ./ ./
 RUN yarn set version berry 
 
 RUN yarn install
-RUN yarn add sharp@npm:0.32.5
+RUN yarn add sharp
 
 RUN yarn build:production
 
