@@ -18,7 +18,7 @@ interface Config {
 
 const config = getConfig();
 const publicRuntimeConfig: Config = config.publicRuntimeConfig;
-export const HOST_URL = env === 'local' ? 'http://localhost:3000' : 'http://localhost:3000';
+export const HOST_URL = env === 'local' ? 'http://forecast.megazone.com' : 'http://forecast.megazone.com';
 export const {
   NEXT_PUBLIC_ENV,
   API_URL_BASE,

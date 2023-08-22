@@ -12,7 +12,7 @@ COPY .yarnrc.yml                  ./
 COPY .yarn                        ./.yarn
 COPY ./ ./
 
-RUN yarn set version berry 
+# RUN yarn set version berry 
 
 RUN yarn install
 RUN yarn add sharp
