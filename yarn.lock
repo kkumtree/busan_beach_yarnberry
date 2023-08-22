@@ -6029,7 +6029,7 @@ __metadata:
   linkType: hard
 
 "readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0, readable-stream@npm:^3.6.0":
-  version: 3.6.2
+  version: 3.6.1
   resolution: "readable-stream@npm:3.6.2"
   dependencies:
     inherits: ^2.0.3

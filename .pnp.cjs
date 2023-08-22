@@ -8120,9 +8120,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["readable-stream", [\
         ["npm:3.6.2", {\
-          "packageLocation": "./.yarn/cache/readable-stream-npm-3.6.2-d2a6069158-bdcbe6c22e.zip/node_modules/readable-stream/",\
+          "packageLocation": "./.yarn/cache/readable-stream-npm-3.6.1-d2a6069158-bdcbe6c22e.zip/node_modules/readable-stream/",\
           "packageDependencies": [\
-            ["readable-stream", "npm:3.6.2"],\
+            ["readable-stream", "npm:3.6.1"],\
             ["inherits", "npm:2.0.4"],\
             ["string_decoder", "npm:1.3.0"],\
             ["util-deprecate", "npm:1.0.2"]\
@@ -9013,7 +9013,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["end-of-stream", "npm:1.4.4"],\
             ["fs-constants", "npm:1.0.0"],\
             ["inherits", "npm:2.0.4"],\
-            ["readable-stream", "npm:3.6.2"]\
+            ["readable-stream", "npm:3.6.1]\
           ],\
           "linkType": "HARD"\
         }],\
