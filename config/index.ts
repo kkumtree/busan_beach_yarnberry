@@ -18,7 +18,7 @@ interface Config {
 
 const config = getConfig();
 const publicRuntimeConfig: Config = config.publicRuntimeConfig;
-export const HOST_URL = env === 'local' ? 'http://traefik.megazone.com/beach' : 'http://traefik.megazone.com/beach';
+export const HOST_URL = env === 'local' ? 'http://traefik.megazone.com' : 'http://traefik.megazone.com';
 export const {
   NEXT_PUBLIC_ENV,
   API_URL_BASE,
